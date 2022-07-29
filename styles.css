@@ -1,0 +1,194 @@
+.card {
+  width: 300px;
+  height: 480px;
+  padding: 10px;
+  margin: 60px auto;
+  background-color: rgb(175,100,0);
+  border: 2px outset rgb(255,200,150); 
+  outline: 15px solid; 
+}
+
+h2 {
+  margin: 0;
+  padding: 4.5px;
+  font-weight: 100;
+  font-size: 1.15rem;
+  color: rgba(235,235,215, 0.9);
+}
+
+.english-type-name {
+  font-size: 0.4rem;
+  margin: 0;
+  padding: 1px 3px 3px 3px;
+  position: absolute;
+}
+.name {
+  margin: 0;
+  padding-top: 1.5%;
+  padding-left: 0.5%;
+  font-weight: 300;
+  font-size: 1rem;
+  display: inline-block; 
+}
+
+.first-letter::first-letter {
+  font-size: 140%; 
+}
+
+.card-top {
+  height: 6%;
+  margin: 4px;
+  border: 3px outset rgb(255,200,150); 
+}
+
+.card-type {
+  background: linear-gradient(110deg, rgb(200,140,0), rgb(30,30,0));
+  height: 28px; 
+  width: 28px; 
+  position: relative;
+  float: right; 
+  border-radius: 50px; 
+  border: 1px solid gold;
+  box-shadow: 0 0 2px 1px gold; 
+  margin: 0.3% 1%;
+}
+
+.level-indication {
+  height: 5.5%; 
+}
+
+h3 {
+  bottom: 0px;
+}
+
+.star {
+  position: relative;
+  float: right;
+  bottom: 22%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: yellow;
+  margin-right: 1.9px;
+}
+
+.level-stars {
+  position: relative;
+  float: right;
+  right: 7%; 
+  bottom: 5%;
+  background: linear-gradient(150deg, rgb(233,80,0), rgb(233,170,0));
+  border-radius: 100px; 
+  width: 7%;
+  height: 75%;
+  margin: 1px;
+}
+
+.card-image {
+  height: 53%; 
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border: 4px outset grey;
+  box-shadow: 0 0 5px 2px rgba(0,0,0,0.7);
+}
+
+.deck {
+  height: 4%;
+}
+
+.card-number {
+  position: relative; 
+  float: right; 
+  right: 8%;
+  font-size: 0.85rem;
+  padding-top: 3px;
+}
+.card-description {
+  height: 25%;
+  background-color: rgb(250, 200, 150); 
+  border: 5px ridge rgb(200,100,0);
+  box-shadow: 0 0 5px 1px; 
+}
+
+.description-title {
+  font-size: 0.75rem;
+  display: inline-block;
+  padding: 3px;
+  margin: 0;
+}
+
+.description-title::first-letter {
+  font-size: 140%;
+}
+
+.description-text {
+  margin: 0;
+  padding: 1px 3px 0 4px; 
+  font-size: 0.71rem;
+  height: 64%;
+}
+
+.beast {
+  padding-left: 0;
+}
+.breakline {
+  height: 1.5px; 
+  background-color: black; 
+  width: 97%;
+  margin: auto;
+}
+
+.stats {
+  font-size: 0.8rem;
+  position: relative;
+  float: right;
+  font-weight: bold;
+  padding: 1px;
+  padding-right: 1.5%;
+}
+
+.white-space {
+  height: 2px; 
+  width: 20px; 
+  postion: relative; 
+  float: right; 
+}
+
+.card-footer {
+  position: relative;
+  width: 325px;
+  height: 20px;
+  right: 12.5px;
+}
+
+.left {
+  position: relative; 
+  float: left; 
+  font-size: 0.8rem;
+  bottom: 9px;
+  left: 5px; 
+  display: inline-block; 
+}
+
+.block {
+  height: 22px;
+  width: 22px; 
+  background: linear-gradient(10deg, rgb(200,140,0), rgb(30,30,0));
+  position: relative;
+  display: inline-block;
+  float: right; 
+  right: 2px; 
+  bottom: 4.5px;
+}
+
+.right {
+  font-size: 0.8rem;
+  position: relative;
+  display: inline-block;
+  float: right;
+  bottom: 9px;
+  right: 15px; 
+}
